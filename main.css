@@ -34,10 +34,12 @@ li {
 
 h1 {
 	font-size: 36px;
-  margin-bottom: 15px;
+  top: 50%;
+  width: 300px;
 }
 
 button {
+
   margin-top: 35px;
   padding: 12px 30px;
   background: #52647E;
@@ -91,4 +93,33 @@ footer {
   color: white;
   padding: 30px;
   justify-items: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 388px;
+  align-items: center;
+  justify-content: center;  
+}
+.about2{
+  display: grid;
+  justify-items: center;
+  width: 1000px;
+  height: 191px;
+  top: 664px;
+  left: 256px;
+  gap: 56px;
+
+}
+.aboutTitle{
+  font-size: 32px;
+  font: bold;
+
+}
+
+.aboutDesc{
+  font-size: 20px;
+  text-align: center;
+
 }
